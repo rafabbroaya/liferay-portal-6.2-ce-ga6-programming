@@ -1,6 +1,6 @@
 package com.ch11.MultithreadedProgramming;
 
-public class CallSync {
+public class Sync {
 
 	public static void main (String ...args) {
 		Callme callme = new Callme();
