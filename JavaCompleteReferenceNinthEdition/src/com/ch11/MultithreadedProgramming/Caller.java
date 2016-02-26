@@ -11,7 +11,7 @@ public class Caller implements Runnable{
 		this.target = target;
 		this.msg = msg;
 		
-		thread = new Thread(this); 
+		thread = new Thread(this, msg); 
 		thread.start();
 	}
 
