@@ -1,4 +1,4 @@
-package com.ch12.Networking;
+package com.ch22.Networking;
 
 import java.net.InetAddress;
 import java.net.UnknownHostException;
