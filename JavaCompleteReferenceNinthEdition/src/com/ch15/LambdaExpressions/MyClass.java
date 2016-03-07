@@ -1,13 +1,17 @@
 package com.ch15.LambdaExpressions;
 
-public class MyClass {
-	private int val;
+public class MyClass<T> {
+	private T val;
 
-	MyClass(int v) {
+	MyClass(T v) {
 		val = v;
 	}
 
-	int getVal() {
+	public MyClass() {
+		val = null;
+	}
+
+	T getVal() {
 		return val;
 	}
 }
