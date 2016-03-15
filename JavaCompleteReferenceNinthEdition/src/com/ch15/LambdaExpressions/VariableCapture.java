@@ -14,6 +14,8 @@ public class VariableCapture {
 			var.num++;
 			return v;
 		};
+		
+		System.out.println(lambda.func(10));
 
 	}
 }
