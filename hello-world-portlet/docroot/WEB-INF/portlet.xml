@@ -4,14 +4,20 @@
 	<portlet>
 		<portlet-name>hello-world</portlet-name>
 		<display-name>Hello World</display-name>
-		<portlet-class>com.liferay.util.bridges.mvc.MVCPortlet</portlet-class>
+		<portlet-class>com.liferayinaction.portlet.HelloYouPortlet</portlet-class>
 		<init-param>
-			<name>view-template</name>
+			<name>view-jsp</name>
 			<value>/view.jsp</value>
+		</init-param>
+		<init-param>
+			<name>edit-jsp</name>
+			<value>/edit.jsp</value>
 		</init-param>
 		<expiration-cache>0</expiration-cache>
 		<supports>
 			<mime-type>text/html</mime-type>
+			<portlet-mode>view</portlet-mode>
+			<portlet-mode>edit</portlet-mode>
 		</supports>
 		<portlet-info>
 			<title>Hello World</title>
