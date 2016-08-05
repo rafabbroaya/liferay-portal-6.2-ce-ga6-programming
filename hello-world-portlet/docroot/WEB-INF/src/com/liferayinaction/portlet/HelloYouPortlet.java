@@ -68,5 +68,4 @@ public class HelloYouPortlet extends GenericPortlet {
 			dispatcher.include(renderRequest, renderResponse);
 		}
 	}
-	
 }
